@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Team</title>
+    <style>
+       /* General body styling */
+body {
+    background-color: #f0f2f5; /* A light grayish-blue color */
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for the cards */
+.about-us-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Individual card styling */
+.teammate-card {
+    background: linear-gradient(145deg, #ffffff, #e6e6e6);
+    border-radius: 15px;
+    box-shadow: 8px 8px 16px #d9d9d9, -8px -8px 16px #ffffff;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    padding: 20px;
+}
+
+.teammate-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 12px 12px 24px #d9d9d9, -12px -12px 24px #ffffff;
+}
+
+/* Image styling */
+.teammate-card img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border: 5px solid #fff;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.teammate-card:hover img {
+    transform: scale(1.05);
+}
+
+/* Name styling */
+.teammate-card h3 {
+    font-size: 1.6em;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+/* Role/Position styling */
+.teammate-card p.role {
+    font-size: 1.1em;
+    color: #666;
+    margin-bottom: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Skills list styling */
+.teammate-card ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.teammate-card ul li {
+    background-color: #e0e0e0;
+    border-radius: 20px;
+    padding: 8px 12px;
+    display: inline-block;
+    margin: 5px 3px;
+    font-size: 0.9em;
+    color: #555;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.teammate-card ul li:hover {
+    background-color: #d0d0d0;
+}
+
+/* Fun fact styling */
+.teammate-card p.fun-fact {
+    font-style: italic;
+    color: #777;
+    margin-bottom: 15px;
+}
+
+/* Contact information styling */
+.teammate-card .contact-info {
+    margin-top: 20px;
+}
+
+.teammate-card .contact-info a {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: 600;
+    margin: 0 10px;
+    transition: color 0.3s, transform 0.3s;
+    display: inline-block;
+    font-size: 1em;
+}
+
+.teammate-card .contact-info a:hover {
+    color: #1e6faf;
+    transform: translateY(-2px);
+}
+
+    </style>
+</head>
+<body>
+    <div class="about-us-container">
+        <div class="teammate-card">
+            <img src="teammate1.jpg" alt="Teammate 1">
+            <h3>Jane Doe</h3>
+            <p class="role">Lead Designer</p>
+            <ul>
+                <li>User Experience Design</li>
+                <li>Interface Design</li>
+                <li>Graphic Design</li>
+            </ul>
+            <p class="fun-fact">Jane loves hiking and is an avid photographer in her spare time.</p>
+            <div class="contact-info">
+                <a href="mailto:jane.doe@example.com">Email</a>
+                <a href="https://linkedin.com/in/janedoe" target="_blank">LinkedIn</a>
+                <a href="https://twitter.com/JaneDoeDesigns" target="_blank">Twitter</a>
+            </div>
+        </div>
+
+        <div class="teammate-card">
+            <img src="teammate2.jpg" alt="Teammate 2">
+            <h3>John Smith</h3>
+            <p class="role">Software Engineer</p>
+            <ul>
+                <li>Frontend Development</li>
+                <li>Backend Development</li>
+                <li>API Integration</li>
+            </ul>
+            <p class="fun-fact">John is a coffee enthusiast and enjoys coding in Python.</p>
+            <div class="contact-info">
+                <a href="mailto:john.smith@example.com">Email</a>
+                <a href="https://linkedin.com/in/johnsmith" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+
+        <div class="teammate-card">
+            <img src="teammate3.jpg" alt="Teammate 3">
+            <h3>Emily Johnson</h3>
+            <p class="role">Project Manager</p>
+            <ul>
+                <li>Agile Methodologies</li>
+                <li>Team Leadership</li>
+                <li>Client Relations</li>
+            </ul>
+            <p class="fun-fact">Emily enjoys organizing community events on weekends.</p>
+            <div class="contact-info">
+                <a href="mailto:emily.johnson@example.com">Email</a>
+                <a href="https://linkedin.com/in/emilyjohnson" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+
+        <div class="teammate-card">
+            <img src="teammate4.jpg" alt="Teammate 4">
+            <h3>Michael Brown</h3>
+            <p class="role">Data Scientist</p>
+            <ul>
+                <li>Machine Learning</li>
+                <li>Data Analysis</li>
+                <li>Predictive Modeling</li>
+            </ul>
+            <p class="fun-fact">Michael plays the guitar and is part of a local band.</p>
+            <div class="contact-info">
+                <a href="mailto:michael.brown@example.com">Email</a>
+                <a href="https://linkedin.com/in/michaelbrown" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+
+        <div class="teammate-card">
+            <img src="teammate5.jpg" alt="Teammate 5">
+            <h3>Sarah Williams</h3>
+            <p class="role">Marketing Specialist</p>
+            <ul>
+                <li>Content Marketing</li>
+                <li>SEO</li>
+                <li>Brand Strategy</li>
+            </ul>
+            <p class="fun-fact">Sarah is passionate about travel and has visited 15 countries.</p>
+            <div class="contact-info">
+                <a href="mailto:sarah.williams@example.com">Email</a>
+                <a href="https://linkedin.com/in/sarahwilliams" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+
+        <div class="teammate-card">
+            <img src="teammate6.jpg" alt="Teammate 6">
+            <h3>David Lee</h3>
+            <p class="role">DevOps Engineer</p>
+            <ul>
+                <li>Cloud Computing</li>
+                <li>CI/CD Pipelines</li>
+                <li>Infrastructure as Code</li>
+            </ul>
+            <p class="fun-fact">David enjoys rock climbing and is a certified scuba diver.</p>
+            <div class="contact-info">
+                <a href="mailto:david.lee@example.com">Email</a>
+                <a href="https://linkedin.com/in/davidlee" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

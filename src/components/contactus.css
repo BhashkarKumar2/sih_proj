@@ -1,0 +1,165 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;   
+}
+.heading {
+    background-color: rgba(88, 88, 173, 0.778);
+    height:180px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+.contact-section {
+    background-color: white;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.contact-section h2 {
+    margin-bottom: 30px;
+    font-size: 2em;
+    color: #fff;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.contact-block {
+    background-color: #fff;
+    color: #333;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.contact-block .icon img {
+    width: 50px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.contact-block h3 {
+    margin: 10px 0;
+    color: #ff7f50;
+}
+
+.contact-block p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.contact-block a {
+    text-decoration: none;
+    color: #ff7f50;
+}
+
+/* Form Section Styling */
+
+.contact-form-section {
+    margin-top: 40px;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-form-section h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.underline {
+    width: 50px;
+    height: 3px;
+    background-color: #ff7f50;
+    margin: 0 auto 20px;
+}
+
+.contact-form {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.captcha-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.captcha-group img {
+    height: 40px;
+}
+
+.form-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.btn-submit, .btn-clear {
+    background-color: #4e2b1f;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-clear {
+    background-color: #333;
+}
+
+.btn-submit:hover, .btn-clear:hover {
+    opacity: 0.8;
+}
+/* Container to keep the map responsive */
+.map-container {
+    position: relative;
+    width: 100%;
+    
+    margin: 0 auto; /* Center-align the map */
+    padding: 20px 0; /* Add some space above and below the map */
+}
+
+.map-container iframe {
+    border: 1px solid #ddd; /* Border around the map */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    width: 1450px;
+    height:300px;
+
+
+}
