@@ -7,6 +7,7 @@ import ContactPage from './components/Contact';
 import About from './components/About';
 import Login from './components/Login';
 import Footer from './components/Footer';
+import Forum from './components/Forum';
 function App() {
   const location = useLocation();
 
@@ -24,6 +25,7 @@ function App() {
         <>
           <Herosection />
           <Dashboard />
+          <Forum />
           <Footer />
         </>
       )}
