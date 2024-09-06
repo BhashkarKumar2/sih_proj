@@ -39,7 +39,7 @@ const teamMembers = [
     linkedIn: 'https://linkedin.com/in/michaelbrown',
   },
   {
-    imgSrc: '5.jpeg',
+    imgSrc: '',
     name: 'Bhasit Maheshwari',
     role: 'Marketing Specialist',
     skills: ['Content Marketing', 'SEO', 'Brand Strategy'],
