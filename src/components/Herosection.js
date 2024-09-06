@@ -20,7 +20,7 @@ const slides = [
     label: "Tiranga (Tricolor)",
     
     color: "bg-gray-600",
-    image : "https://static.vecteezy.com/system/resources/thumbnails/024/891/854/small_2x/flag-blowing-in-wind-symbol-of-patriotism-and-freedom-generated-by-ai-photo.jpg"
+    image : "https://images.pexels.com/photos/3476860/pexels-photo-3476860.jpeg"
   },
 ];
 
@@ -63,10 +63,7 @@ const Carousel = () => {
                 alt={slide.label}
                 className="absolute inset-0 w-full h-full object-fit"
               />
-              <div className="relative z-10 text-white bg-black bg-opacity-20 p-4">
-                <h3 className="text-2xl font-semibold">{slide.label}</h3>
-                
-              </div>
+             
             </div>
           ))}
         </div>
